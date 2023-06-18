@@ -2,14 +2,17 @@
   /* CSS HSL */
   --indigo-dye: hsla(211, 39%, 26%, 1);
   --rich-black: hsla(207, 31%, 6%, 1);
-  --gray-text: rgb(133, 148, 161);
   --alice-blue: hsla(212, 60%, 95%, 1);
+  --oxford-blue: #31394a;
+  --snuff-gray: #dbdbeb;
+  --blue-soft: #5c84ac;
+  --blue-gray: #84a4c4;
 }
 
 * {
   margin: 0;
   padding: 0;
-  color: var(--gray-text);
+  color: var(--snuff-gray);
 }
 
 body {
@@ -31,7 +34,7 @@ body {
 }
 
 .right {
-  background-color: var(--alice-blue);
+  background-color: var(--oxford-blue);
   width: calc(100% - 35%);
   padding: 8rem 2rem;
 }
