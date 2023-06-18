@@ -8,10 +8,76 @@
   </head>
   <body>
     <div class="flex-container">
-      <div class="left"></div>
+      <div class="left">
+        <img
+          src="img/alexander-andrews-1m31XJLUq-Q-unsplash.jpg"
+          alt="car with nature"
+        />
+      </div>
       <div class="right">
-        <div class="top"></div>
-        <div class="mid"></div>
+        <div class="top">
+          <h5>
+            This is not a real online service! Let us help you to get your dream
+            car, perfectly tailored for <em>your</em> needs.
+          </h5>
+          <h5>Sign up <em>now</em> to get started</h5>
+          <h5>You <em>know</em> you want to.</h5>
+        </div>
+        <div class="mid">
+          <h5>Let's Join Us!</h5>
+          <form action="post" method="post">
+            <div class="group">
+              <label for="first-name">FIRST NAME</label
+              ><input
+                required
+                placeholder="Bob"
+                type="text"
+                name="first-name"
+                id="first-name"
+              />
+              <label for="last-name">LAST NAME</label
+              ><input
+                required
+                placeholder="Johnson"
+                type="text"
+                name="last-name"
+                id="last-name"
+              />
+            </div>
+            <div class="group">
+              <label for="email">EMAIL</label
+              ><input
+                required
+                placeholder="bob@odin.com"
+                type="email"
+                name="email"
+                id="email"
+              />
+              <label for="phone">PHONE NUMBER</label
+              ><input type="number" name="phone" id="phone" />
+            </div>
+            <div class="group">
+              <label for="password">PASSWORD</label
+              ><input
+                required
+                minlength="8"
+                maxlength="32"
+                type="password"
+                name="password"
+                id="password"
+              />
+              <label for="repassword">CONFIRM PASSWORD</label
+              ><input
+                required
+                minlength="8"
+                maxlength="32"
+                type="password"
+                name="repassword"
+                id="repassword"
+              />
+            </div>
+          </form>
+        </div>
         <div class="bottom"></div>
       </div>
     </div>
