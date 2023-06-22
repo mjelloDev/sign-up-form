@@ -52,7 +52,7 @@ body {
 }
 
 .mid {
-  background-color: hsla(212, 60%, 95%, 0.15);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 /* Typography */
@@ -65,7 +65,7 @@ h5 {
 }
 
 .mid > h5 {
-  padding-top: 0.5rem;
+  padding-top: 2.5rem;
 }
 
 .hero-logo {
@@ -96,8 +96,17 @@ h5 {
   width: 35%;
   padding: 1em;
   text-align: center;
-  background-color: var(--color-indigo-dye);
+  background-color: hsla(211, 39%, 26%, 0.3);
   color: var(--color-alice-blue);
+}
+
+.attributes a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.attributes a:hover {
+  text-decoration: underline;
 }
 
 /* Form */
